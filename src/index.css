@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply w-full overflow-x-hidden;
+}
+
+/* Fix for images to prevent stretching */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make sure all sections take full width */
+section {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+}
