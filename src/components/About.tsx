@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-full md:w-1/2 h-[400px] flex-shrink-0">
               <img
-                src="/restaurant-interior.jpg"
+                src={`${import.meta.env.BASE_URL}restaurant-interior.jpg`}
                 alt="The Gurkha Elite Interior"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />

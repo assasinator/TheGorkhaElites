@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       >
       <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
       <div className="flex items-center space-x-2">
-        <img src="/logo.png" alt="icon" className="w-10 h-10" /> {/* Icon */}
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="icon" className="w-10 h-10" /> {/* Icon */}
         <div className="text-2xl font-serif font-bold">
           <a href="#" className={isScrolled ? 'text-royal-dark' : 'text-white'}>
             The Gurkha Elites

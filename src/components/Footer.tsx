@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <div className="max-w-7xl mx-auto px-6 text-center">
       <div className="flex flex-col justify-center items-center mb-4">
         <img
-          src="/logo.svg" 
+          src={`${import.meta.env.BASE_URL}logo.svg`}
           alt="Logo"
           className="w-40 h-40 mb-2 filter invert"
         />

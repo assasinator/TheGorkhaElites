@@ -14,7 +14,7 @@ function App() {
         <Hero />
         <AlternatingSection
           imagePosition="left"
-          imageSrc="/restaurant-image.jpg"
+          imageSrc={`${import.meta.env.BASE_URL}restaurant-image.jpg`}
           imageAlt="The Gurkha Elites Restaurant"
           title="Welcome to The Gurkha Elites"
           description="Our restaurant offers a unique dining experience that blends tradition with modern culinary techniques. We pride ourselves on using only the freshest ingredients to create memorable dishes."
@@ -22,7 +22,7 @@ function App() {
         />
         <AlternatingSection
           imagePosition="right"
-          imageSrc="/food-image.jpg"
+          imageSrc={`${import.meta.env.BASE_URL}food-image.jpg`}
           imageAlt="Signature dish"
           title="The Wizard Himself"
           description="Behind every extraordinary dish is the passion and creativity of our chef. With years of experience in fusion cuisine, our chef brings together Nepali, Italian, and Australian influences to create a dining experience like no other."
@@ -30,7 +30,7 @@ function App() {
         />
         <AlternatingSection
           imagePosition="left"
-          imageSrc="/chef-image.jpg"
+          imageSrc={`${import.meta.env.BASE_URL}chef-image.jpg`}
           imageAlt="Our chef"
           title="Our Culinary Team"
           titleExtra={<span className="text-xl font-bold mt-2 mb-4 block">Pop-up by <span className="text-royal-gold">"THE GURKHA ELITES"</span></span>}
