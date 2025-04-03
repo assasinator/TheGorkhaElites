@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import chefImage from '/chef-image.jpg';
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Full-width background with overlay */}
       <div className="absolute inset-0">
         <img 
-          src="/chef-image.jpg" 
+          src={chefImage} 
           alt="Chef with pizza" 
           className="w-full h-full object-cover"
         />
