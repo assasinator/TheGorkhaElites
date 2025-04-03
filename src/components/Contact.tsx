@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                 </motion.button>
               </form>
               
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h4 className="text-xl font-serif mb-4">Join Our Mailing List</h4>
                 <p className="mb-4">Sign up for our newsletter and learn about special events and promotions!</p>
                 <div className="flex">
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                     Subscribe
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>

@@ -17,14 +17,14 @@ const About: React.FC = () => {
             <div className="w-full md:w-1/2 h-[400px] flex-shrink-0">
               <img
                 src="/restaurant-interior.jpg"
-                alt="The Royal Elite Interior"
+                alt="The Gurkha Elite Interior"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
             </div>
             
             <div className="w-full md:w-1/2">
               <p className="text-lg mb-6">
-                <span className="font-bold">The Royal Elite</span> began as a passion project between three chefs with a dream to bring authentic Nepali flavors to the heart of the city, combined with Italian and Australian influences.
+                <span className="font-bold">The Gurkha Elites</span> began as a passion project between three chefs with a dream to bring authentic Nepali flavors to the heart of the city, combined with Italian and Australian influences.
               </p>
               <p className="text-lg mb-6">
                 Our pop-up concept by <span className="font-bold">THE GURKHA ELITES</span> features traditional recipes from Kathmandu, reimagined with modern techniques and local ingredients. We source ethically and sustainably, working closely with local farmers and suppliers.

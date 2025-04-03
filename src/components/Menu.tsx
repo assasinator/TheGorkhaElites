@@ -131,7 +131,7 @@ const Menu: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl font-serif text-center mb-8 text-royal-dark">
-            The Royal Elite Menu
+            The Gorkha Elite Menu
           </h2>
 
           <div className="flex justify-center mb-8 overflow-x-auto w-full">

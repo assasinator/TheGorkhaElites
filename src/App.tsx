@@ -15,8 +15,8 @@ function App() {
         <AlternatingSection
           imagePosition="left"
           imageSrc="/restaurant-image.jpg"
-          imageAlt="The Royal Elite Restaurant"
-          title="Welcome to The Royal Elite"
+          imageAlt="The Gurkha Elites Restaurant"
+          title="Welcome to The Gurkha Elites"
           description="Our restaurant offers a unique dining experience that blends tradition with modern culinary techniques. We pride ourselves on using only the freshest ingredients to create memorable dishes."
           bgColor="bg-white"
         />
@@ -29,7 +29,7 @@ function App() {
           bgColor="bg-royal-light"
         />
         <AlternatingSection
-          imagePosition="right"
+          imagePosition="left"
           imageSrc="/chef-image.jpg"
           imageAlt="Our chef"
           title="Our Culinary Team"

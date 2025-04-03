@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="max-w-lg"
         >
-          <h1 className="text-5xl md:text-6xl font-serif text-white mb-4">The Royal Elite</h1>
+          <h1 className="text-5xl md:text-6xl font-serif text-white mb-4">The Gurkha Elites</h1>
           <p className="text-xl font-bold text-white mb-2">
             Pop-up by <span className="text-royal-gold">"THE GURKHA ELITES"</span>
           </p>

@@ -20,12 +20,15 @@ const Header: React.FC = () => {
           isScrolled ? 'bg-white bg-opacity-95 shadow-md py-3' : 'bg-transparent py-4'
         }`}
       >
-        <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="text-2xl font-serif font-bold">
-            <a href="#" className={isScrolled ? 'text-royal-dark' : 'text-white'}>
-              The Royal Elite
-            </a>
-          </div>
+      <div className="w-full max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <div className="flex items-center space-x-2">
+        <img src="/logo.png" alt="icon" className="w-10 h-10" /> {/* Icon */}
+        <div className="text-2xl font-serif font-bold">
+          <a href="#" className={isScrolled ? 'text-royal-dark' : 'text-white'}>
+            The Gurkha Elites
+          </a>
+        </div>
+      </div>
           
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
